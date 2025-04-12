@@ -55,3 +55,27 @@ The dataset used (`cancer_patients_china.csv`) contains anonymized records of ca
 ## 📊 Key Visualizations
 
 The project includes key visualizations such as the distribution of age, gender, cancer types, and diagnosis stage. It also highlights the comparison between urban and rural patients, survival patterns across provinces, and survival outcomes by cancer type and stage. Other visualizations cover treatment types used at different cancer stages, along with the average survival months for each stage. These visualizations help in understanding key trends in the data and the relationship between cancer characteristics and survival outcomes.
+
+## 🔍 Logistic Regression Model
+
+The logistic regression model is trained to predict the survival status of cancer patients based on various features in the dataset. We followed these key steps for the modeling process:
+
+1. **Data Preparation**:
+   - Categorical variables were encoded using Label Encoding.
+   - Missing values were handled appropriately by either filling or dropping them, depending on the situation.
+   - Feature scaling was performed to standardize numerical variables.
+
+2. **Model Training**:
+   - The dataset was split into training and testing sets (80-20 split).
+   - A logistic regression model was trained on the training data using the `scikit-learn` library.
+
+3. **Evaluation**:
+   - Model performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
+   - Confusion matrix was plotted to assess the model's prediction capability.
+   - ROC curve and AUC score were also computed to evaluate the model's discriminative power.
+
+4. **Prediction**:
+   - The trained model was used to predict the survival status for the test set.
+   - The final model can predict whether a patient will survive or not based on their medical and demographic features.
+
+The logistic regression model allows for quick and interpretable predictions, which can be useful in real-world applications for early cancer diagnosis and survival predictions.
