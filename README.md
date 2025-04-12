@@ -50,9 +50,7 @@ The dataset used (`cancer_patients_china.csv`) contains anonymized records of ca
 - **Biomarker_1**: Presence of a specific biomarker (object)
 - **Biomarker_2**: Presence of another biomarker (object)
 
-📁 **Dataset Link:** [https://www.kaggle.com/datasets/lilykong/cancer-patients](https://www.kaggle.com/datasets/lilykong/cancer-patients)
-
-> **Note:** The dataset has been cleaned and saved as `cleaned_cancer_dataset.csv` for further analysis.
+📁 **Dataset Link:** [https://www.kaggle.com/datasets/ak0212/cancer-patient-dataset-china](https://www.kaggle.com/datasets/ak0212/cancer-patient-dataset-china)
 
 ## 📊 Key Visualizations
 
